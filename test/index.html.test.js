@@ -1,4 +1,5 @@
-const chai = require("chai");
+const helpers = require("./helpers");
+const chai = require("chai")
 chai.use(require("chai-dom"));
 const { expect } = chai;
 
